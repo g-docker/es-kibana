@@ -1,0 +1,9 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+#开启x-pack安全认证
+xpack.security.enabled: true
+xpack.security.audit.enabled: true
+
+xpack.license.self_generated.type: basic
+# 如果是basic license的话需要加入下面这一行，不然的话restart elasticsearch之后会报错。
+xpack.security.transport.ssl.enabled: true

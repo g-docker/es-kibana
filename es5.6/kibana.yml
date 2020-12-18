@@ -1,0 +1,10 @@
+#
+# ** THIS IS AN AUTO-GENERATED FILE **
+#
+
+# Default Kibana configuration for docker target
+elasticsearch.ssl.verify: false
+server.port: 5601
+server.host: "0.0.0.0"
+elasticsearch.url: "http://elasticsearch1:9200"
+cluster.initial_master_nodes: ["kibana"]
